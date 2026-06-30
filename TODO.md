@@ -1,9 +1,6 @@
 # TODO
 
-- [x] Insert rounded-rectangle profile photo into the **About Me** section in `src/App.tsx`.
-- [x] Use professional card styling (border + subtle gold glow), responsive sizing, and proper `alt` text.
-- [x] Add an accessible caption/role line under the image.
-- [x] Update the `src` path in `src/App.tsx` to use a local photo (`src/profile.jpg`).
-
-
+## Firestore message submit “stuck on sending” fix
+- [ ] Update `src/messageRequests.ts` to add a request timeout, console logging, and clearer error messages.
+- [ ] (If needed) Re-run the build/dev server and test the form to confirm submit returns or shows an error.
 
