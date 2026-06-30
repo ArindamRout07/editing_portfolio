@@ -471,7 +471,7 @@ export default function App() {
           <div className="absolute inset-0 bg-linear-to-t from-[#050505] via-[#050505]/40 to-[#050505]/60 z-10" />
           <video
             ref={heroVideoRef}
-            src="/public/0630.mp4"
+            src="https://res.cloudinary.com/lmlldgjs/video/upload/v1782841051/hero_i7ipff.mp4"
             autoPlay
             muted={muted}
             loop
