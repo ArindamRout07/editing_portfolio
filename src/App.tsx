@@ -109,8 +109,8 @@ const projects = [
     subtitle: "Cyberpunk Streetscape Edit",
     description:
       "A high-octane hyperlapse cinematic exploration of Tokyo at night. Featuring meticulous color correction, speed ramping, and neon-drenched visual design to emphasize the cyberpunk essence.",
-    thumbnail: "midnight-tokyo-first-frame.jpg",
-    videoUrl: "hero.mp4",
+    thumbnail: "/midnight-tokyo-first-frame.jpg",
+    videoUrl: "/hero.mp4",
     tools: ["Premiere Pro", "After Effects", "DaVinci Resolve"],
     category: "Commercial",
   },
@@ -471,7 +471,7 @@ export default function App() {
           <div className="absolute inset-0 bg-linear-to-t from-[#050505] via-[#050505]/40 to-[#050505]/60 z-10" />
           <video
             ref={heroVideoRef}
-            src="hero.mp4"
+            src="/hero.mp4"
             autoPlay
             muted={muted}
             loop
@@ -602,7 +602,7 @@ export default function App() {
               {/* Image card */}
               <div className="relative bg-neutral-950/50 border border-neutral-800/80 rounded-3xl overflow-hidden shadow-[0_0_0_1px_rgba(212,175,55,0.12)]">
                 <img
-                  src="profile.jpg"
+                  src="/profile.jpg"
                   alt="Arindam Rout profile photo"
                   className="w-40 h-30 sm:w-55 sm:h-40 md:w-65 md:h-47.5 object-cover"
                   loading="eager"
