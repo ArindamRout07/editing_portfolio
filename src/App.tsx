@@ -182,7 +182,7 @@ const projects = [
     description:
       "A high-energy event edit driven by crowd energy, movement, and the intensity of the night. Utilizing fast cuts, light leaks, and dynamic transitions to create a cinematic aftermovie experience.np",
     thumbnail: "/burnoutframe.png",
-    videoUrl: "https://res.cloudinary.com/lmlldgjs/video/upload/v1782841051/hero_i7ipff.mp4",
+    videoUrl: "/hero.mp4",
     tools: ["Premiere Pro", "After Effects", "DaVinci Resolve"],
     category: "Event",
   },
